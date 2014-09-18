@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.description         = <<-DESC
                           腾讯微博 SDK，支持 arm64.
                           DESC
-  s.homepage            = "http://open.weixin.qq.com/"
+  s.homepage            = "http://dev.t.qq.com"
   s.license             = { :type => 'LGPL', :text => <<-LICENSE
                                                    ® 1998 - 2014 Tencent All Rights Reserved.
                                                    LICENSE
