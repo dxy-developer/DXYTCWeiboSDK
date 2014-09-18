@@ -2,9 +2,7 @@ Pod::Spec.new do |s|
   s.name                = "DXYTCWeiboSDK"
   s.version             = "2.0"
   s.summary             = "腾讯微博 SDK，支持 arm64."
-  s.description         = <<-DESC
-                          腾讯微博 SDK，支持 arm64.
-                          DESC
+  s.requires_arc        = true
   s.homepage            = "http://dev.t.qq.com"
   s.license             = { :type => 'LGPL', :text => <<-LICENSE
                                                    ® 1998 - 2014 Tencent All Rights Reserved.
